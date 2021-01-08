@@ -6,4 +6,5 @@ Initial_Cost_Estimate,US East (N. Virginia),,Application Load Balancer,0,1200.85
 Initial_Cost_Estimate,US East (N. Virginia),,S3 Standard,0,6.58,78.96,USD,S3 Standard storage (100 GB per month)
 Initial_Cost_Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,
 Initial_Cost_Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,70.2,842.4,USD,Number of NAT Gateways (2)
-,,,,,8284.646,,,
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0.04,0.48,USD,"Number of EC2 instances (8), Number of EIPs per instance (1)"
+,,,,,8284.686,,,

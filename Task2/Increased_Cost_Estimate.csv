@@ -6,7 +6,7 @@ Increased_Cost_Estimate,US East (N. Virginia),,Application Load Balancer,0,2368.
 Increased_Cost_Estimate,US East (N. Virginia),,S3 Standard,0,6.58,78.96,USD,S3 Standard storage (100 GB per month)
 Increased_Cost_Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
 Increased_Cost_Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,70.2,842.4,USD,Number of NAT Gateways (2)
-,,,,,,,,
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0.06,0.72,USD,"Number of EC2 instances (12), Number of EIPs per instance (1)"
 ,,,,,,,,
 Changes,,,,,,,,
 1. Increased the number of EC2 instances for Web server to 12 from 6 and also changed the EC2 size to a higher configuration,,,,,,,,

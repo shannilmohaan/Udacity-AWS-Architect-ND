@@ -6,7 +6,7 @@ Initial_Cost_Estimate,US East (N. Virginia),,Application Load Balancer,0,1200.85
 Initial_Cost_Estimate,US East (N. Virginia),,S3 Standard,0,6.58,78.96,USD,S3 Standard storage (100 GB per month)
 Initial_Cost_Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
 Initial_Cost_Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,70.2,842.4,USD,Number of NAT Gateways (2)
-,,,,,6241.24,,,
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0.03,0.36,USD,"Number of EC2 instances (12), Number of EIPs per instance (1)"
 ,,,,,,,,
 ,,,,,,,,
 Changes,,,,,,,,
@@ -14,6 +14,3 @@ Changes,,,,,,,,
 2. Changed the EC2 instance type for RDS. Changed it from db.m5.12xlarge to db.m5.8xlarge,,,,,,,,
 ,,,,,,,,
 These 2 changes helped to bring down the total monthly cost from 8284 USD to 6241 USD,,,,,,,,
-,,,,,,,,
-,,,,,,,,
-,,,,,,,,
