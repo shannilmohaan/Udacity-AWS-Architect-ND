@@ -1,0 +1,19 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon EC2,0,990.73,11888.76,USD,"Operating system (Linux), Quantity (6), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (c6g.2xlarge)"
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon EC2,0,1299.96,15599.52,USD,"Operating system (Linux), Quantity (6), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (m5.2xlarge)"
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,2672.92,32075.04,USD,"Quantity (1), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (db.m5.8xlarge)"
+Initial_Cost_Estimate,US East (N. Virginia),,Application Load Balancer,0,1200.85,14410.2,USD,Number of Application Load Balancers (2)
+Initial_Cost_Estimate,US East (N. Virginia),,S3 Standard,0,6.58,78.96,USD,S3 Standard storage (100 GB per month)
+Initial_Cost_Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,70.2,842.4,USD,Number of NAT Gateways (2)
+,,,,,6241.24,,,
+,,,,,,,,
+,,,,,,,,
+Changes,,,,,,,,
+1. Reduced the number of EC2 instances for both Web and Application server to 6 from 8,,,,,,,,
+2. Changed the EC2 instance type for RDS. Changed it from db.m5.12xlarge to db.m5.8xlarge,,,,,,,,
+,,,,,,,,
+These 2 changes helped to bring down the total monthly cost from 8284 USD to 6241 USD,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

@@ -1,0 +1,16 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon EC2,0,3985.09,47821.08,USD,"Operating system (Linux), Quantity (12), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (1 TB), Instance type (c6g.4xlarge)"
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon EC2,0,8396.6,100759.2,USD,"Operating system (Linux), Quantity (10), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (1 TB), Instance type (m5ad.8xlarge)"
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,5230.84,62770.08,USD,"Quantity (1), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (db.m5.16xlarge)"
+Increased_Cost_Estimate,US East (N. Virginia),,Application Load Balancer,0,2368.85,28426.2,USD,Number of Application Load Balancers (2)
+Increased_Cost_Estimate,US East (N. Virginia),,S3 Standard,0,6.58,78.96,USD,S3 Standard storage (100 GB per month)
+Increased_Cost_Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,70.2,842.4,USD,Number of NAT Gateways (2)
+,,,,,,,,
+,,,,,,,,
+Changes,,,,,,,,
+1. Increased the number of EC2 instances for Web server to 12 from 6 and also changed the EC2 size to a higher configuration,,,,,,,,
+2. Increased the number of EC2 instances for Application server to 10 from 6 and also changed the EC2 size to a higher configuration,,,,,,,,
+2. Changed the EC2 instance type for RDS. Changed it to db.m5.16xlarge from db.m5.8xlarge,,,,,,,,
+,,,,,,,,
+These 3 changes increased the overall monthly cost to 20058 USD from 6241 USD previously,,,,,,,,

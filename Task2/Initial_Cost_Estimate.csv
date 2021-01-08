@@ -1,0 +1,9 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon EC2,0,1320.98,15851.76,USD,"Operating system (Linux), Quantity (8), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (c6g.2xlarge)"
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon EC2,0,1733.28,20799.36,USD,"Operating system (Linux), Quantity (8), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (m5.2xlarge)"
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,3952.756,47433.07,USD,"Quantity (1), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (500 GB), Instance type (db.m5.12xlarge)"
+Initial_Cost_Estimate,US East (N. Virginia),,Application Load Balancer,0,1200.85,14410.2,USD,Number of Application Load Balancers (2)
+Initial_Cost_Estimate,US East (N. Virginia),,S3 Standard,0,6.58,78.96,USD,S3 Standard storage (100 GB per month)
+Initial_Cost_Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,70.2,842.4,USD,Number of NAT Gateways (2)
+,,,,,8284.646,,,
